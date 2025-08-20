@@ -1,0 +1,80 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #3b3f45;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.container {
+  max-width: 534px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #ff8984;
+}
+.main__title {
+  padding-top: 19px;
+  padding-bottom: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+.third__title {
+  margin-top: 4px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header,
+.footer {
+  margin: 0 auto;
+  background: #4a4f56;
+  max-width: 534px;
+  text-align: center;
+}
+.header {
+  min-height: 82px;
+}
+
+.menu__item {
+  background: #88839e;
+  min-height: 45px;
+}
+
+.menu__item:nth-child(2n) {
+  background: #7a7593;
+}
+
+.menu__item:hover {
+  background: #625e77;
+  border: 3px solid #fff;
+}
+
+.form__label {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form__input:checked {
+  text-decoration: line-through;
+}
+.footer {
+  font-weight: 400;
+  font-size: 18px;
+}
+.second__title {
+  padding: 12px 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.span__label {
+  font-weight: 400;
+  color: #fff;
+  font-size: 11px;
+}
